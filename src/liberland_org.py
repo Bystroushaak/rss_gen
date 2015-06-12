@@ -43,6 +43,8 @@ def _parse_date(div):
         return
 
     raw_date = date.split(":")[-1].strip()
+    raw_date = raw_date.split("<")[0]  # remove link to the article
+
     date = arrow.Arrow.strptime(raw_date, "%d.%m.%Y")
 
     return date.to("Europe/Prague").datetime
