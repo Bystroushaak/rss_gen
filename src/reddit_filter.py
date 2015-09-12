@@ -53,7 +53,9 @@ def filter_feed(chan_id, filter_item):
         if filter_item(title, link, pub_date, description):
             item.replaceWith(dhtmlparser.HTMLElement(""))
 
-    return rss_dom.__str__()
+    xml = rss_dom.prettify().splitlines()
+
+    return '<?xml version="1.0" encoding="UTF-8"?>' + "\n".join(xml[1:])
 
 
 def banned_pattern(banned_words, s):
