@@ -21,6 +21,8 @@ def filter_python(title, link, pub_date, description):
         "pandas",
         "can anyone",
         "can someone",
+        "help!",
+        "flask",
     ]
 
     if banned_pattern(banned, title):
