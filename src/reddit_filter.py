@@ -4,6 +4,8 @@
 # Interpreter version: python 2.7
 #
 # Imports =====================================================================
+from string import maketrans
+
 import httpkie
 import dhtmlparser
 from dhtmlparser import first
@@ -58,9 +60,24 @@ def filter_feed(chan_id, filter_item):
     return '<?xml version="1.0" encoding="UTF-8"?>' + "\n".join(xml[1:])
 
 
-def banned_pattern(banned_words, s):
-    for banword in banned_words:
-        if banword in s:
+def banned_pattern(banned_words, line):
+    def test_multiple(words, line):
+        test_words = [
+            word in line
+            for word in words
+        ]
+        if all(test_words):
             return True
 
-    return False
+    # create set of words
+    trantab = maketrans(".,!?/", "     ")
+    tokens = set(
+        line.translate(trantab).split()
+    )
+
+    for banword in banned_words:
+        if type(banword) in [list, tuple]:
+            if test_multiple(banword, tokens):
+                return True
+        elif banword in tokens:
+            return True
