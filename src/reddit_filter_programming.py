@@ -6,6 +6,7 @@
 # Imports =====================================================================
 from reddit_filter import filter_feed
 from reddit_filter import banned_pattern
+from reddit_filter import banned_pattern_tokens
 
 
 # Functions & classes =========================================================
@@ -14,9 +15,17 @@ def filter_programming(title, link, pub_date, description):
 
     banned = [
         "swift",
+        "webrtc",
+        "dart",
+        "rust",
+        "windows",
+        "typescript",
+        ("css", "js"),
+        ("css", "javascript"),
+        ("css", "php"),
     ]
 
-    if banned_pattern(banned, title):
+    if banned_pattern_tokens(banned, title):
         return True
 
 

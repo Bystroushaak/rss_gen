@@ -22,6 +22,8 @@ def filter_python(title, link, pub_date, description):
         "can anyone",
         "can someone",
         "help!",
+        "need help",
+        "need some help",
         "flask",
     ]
 

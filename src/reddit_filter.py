@@ -61,6 +61,16 @@ def filter_feed(chan_id, filter_item):
 
 
 def banned_pattern(banned_words, line):
+    line = line.strip().lower()
+
+    for banword in banned_words:
+        if banword.lower() in line:
+            return True
+
+
+def banned_pattern_tokens(banned_words, line):
+    line = line.strip().lower()
+
     def test_multiple(words, line):
         test_words = [
             word in line
@@ -79,5 +89,5 @@ def banned_pattern(banned_words, line):
         if type(banword) in [list, tuple]:
             if test_multiple(banword, tokens):
                 return True
-        elif banword in tokens:
+        elif banword.lower() in tokens:
             return True
