@@ -19,12 +19,18 @@ def filter_python(title, link, pub_date, description):
         "django",
         "course",
         "pandas",
+        "flask",
         "can anyone",
         "can someone",
         "help!",
         "need help",
         "need some help",
-        "flask",
+        "help with",
+        "I am new",
+        "I am a new",
+        "please help",
+        "new to coding",
+        "new to python",
     ]
 
     if banned_pattern(banned, title):
