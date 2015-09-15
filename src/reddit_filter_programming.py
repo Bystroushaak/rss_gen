@@ -17,8 +17,14 @@ def filter_programming(title, link, pub_date, description):
         "swift",
         "webrtc",
         "dart",
-        "rust",
+        ("rust",),  # whole words only
         "windows",
+        "node.js",
+        "gtalkabout",
+        "sqlite",
+        "angularjs",
+        ("java",),  # whole words only
+        "javascript",
         "typescript",
         ("css", "js"),
         ("css", "javascript"),
