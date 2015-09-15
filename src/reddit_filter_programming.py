@@ -26,6 +26,9 @@ def filter_programming(title, link, pub_date, description):
         ("java",),  # whole words only
         "javascript",
         "typescript",
+        "angular",
+        "hack 2.0",
+        "coderpower",
         ("css", "js"),
         ("css", "javascript"),
         ("css", "php"),
