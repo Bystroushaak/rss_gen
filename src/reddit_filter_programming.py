@@ -13,6 +13,19 @@ from reddit_filter import banned_pattern_tokens
 def filter_programming(title, link, pub_date, description):
     title = title.lower()
 
+    whitelist = [
+        "carmack",
+        "templeos",
+        "lisp",
+        "self",
+        "smalltalk",
+        "python",
+        "codeless",
+    ]
+
+    if banned_pattern_tokens(whitelist, title):
+        return False
+
     banned = [
         "swift",
         "webrtc",
