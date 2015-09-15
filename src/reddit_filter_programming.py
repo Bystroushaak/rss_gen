@@ -23,20 +23,20 @@ def filter_programming(title, link, pub_date, description):
         "codeless",
     ]
 
-    if banned_pattern_tokens(whitelist, title):
+    if banned_pattern(whitelist, title):
         return False
 
     banned = [
         "swift",
-        "webrtc",
         "dart",
-        ("rust",),  # whole words only
+        "rust",
+        "webrtc",
         "windows",
         "node.js",
         "gtalkabout",
         "sqlite",
         "angularjs",
-        ("java",),  # whole words only
+        "java",
         "javascript",
         "typescript",
         "angular",
