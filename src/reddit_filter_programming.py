@@ -11,10 +11,6 @@ from reddit_filter import banned_pattern_tokens
 from dupe_filter import DupeFilter
 
 
-# Variables ===================================================================
-DUPES_FN = "reddit_filter_programming_titles.json"
-
-
 # Functions & classes =========================================================
 def filter_programming_closure(dupe_filter):
     def filter_programming(title, link, pub_date, description):
@@ -42,6 +38,8 @@ def filter_programming_closure(dupe_filter):
             "rust",
             "java",
             "scala",
+            "haskell",
+            "cppcon",
             "javascript",
             "typescript",
             "hack 2.0",
