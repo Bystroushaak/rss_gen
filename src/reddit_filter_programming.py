@@ -18,12 +18,20 @@ def filter_programming_closure(dupe_filter):
 
         whitelist = [
             "carmack",
-            "templeos",
+            "clojure",
+            "codeless",
+            "emacs",
             "lisp",
+            "python",
+            "racket",
+            "reality",
+            "scheme",
             "self",
             "smalltalk",
-            "python",
-            "codeless",
+            "stallman",
+            "templeos",
+            "virtual",
+            "vr",
         ]
 
         if banned_pattern(whitelist, title):
@@ -59,6 +67,7 @@ def filter_programming_closure(dupe_filter):
             ("css", "js"),
             ("css", "javascript"),
             ("css", "php"),
+            ("c++", "stl"),
             ("full", "stack", "web"),
             ("must", "have", "free"),
         ]
