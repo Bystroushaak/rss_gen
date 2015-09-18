@@ -52,6 +52,8 @@ def filter_programming_closure(dupe_filter):
             "typescript",
             "hack 2.0",
 
+            "jclarity",
+            "kafka",
             "webrtc",
             "windows",
             "winrt",
@@ -59,12 +61,14 @@ def filter_programming_closure(dupe_filter):
             "sqlite",
             "angular",
             "udacity",
+            "xcode",
 
             "node.js",
             "angularjs",
 
             "coderpower",
             ("css", "js"),
+            ("node", "js"),
             ("css", "javascript"),
             ("css", "php"),
             ("c++", "stl"),
