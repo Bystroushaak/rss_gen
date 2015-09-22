@@ -12,7 +12,7 @@ from contextlib import contextmanager
 
 # Variables ===================================================================
 DUPE_KEY = "dupes"
-PROTECTED_TIME = 60 * 60 * 10  # 10 hours
+PROTECTED_TIME = 60 * 60 * 2  # 2 hours
 
 
 # Functions & classes =========================================================
