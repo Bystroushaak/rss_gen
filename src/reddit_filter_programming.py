@@ -32,6 +32,8 @@ def filter_programming_closure(dupe_filter):
             "templeos",
             "virtual",
             "vr",
+            "digitalmars",
+            "dlang",
         ]
 
         if banned_pattern(whitelist, title):
@@ -51,6 +53,11 @@ def filter_programming_closure(dupe_filter):
             "javascript",
             "typescript",
             "hack 2.0",
+            "c++",
+            "kotlin",
+            "elixir",
+            "clang",
+            "golang",
 
             "jclarity",
             "kafka",
@@ -62,13 +69,23 @@ def filter_programming_closure(dupe_filter):
             "angular",
             "udacity",
             "xcode",
+            "linq",
+            "jetbrains",
+            "jdbc",
+            "nginx",
 
+            "nodejs",
             "node.js",
+            "reactjs",
+            "react.js",
             "angularjs",
+            "angular.js",
 
             "coderpower",
             ("css", "js"),
             ("node", "js"),
+            ("angluar", "js"),
+            ("react", "js"),
             ("css", "javascript"),
             ("css", "php"),
             ("c++", "stl"),
