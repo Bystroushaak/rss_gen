@@ -54,10 +54,13 @@ def filter_programming_closure(dupe_filter):
             "typescript",
             "hack 2.0",
             "c++",
+            "c++11",
+            "c++14",
             "kotlin",
             "elixir",
             "clang",
             "golang",
+            "ruby",
 
             "jclarity",
             "kafka",
@@ -80,6 +83,7 @@ def filter_programming_closure(dupe_filter):
             "react.js",
             "angularjs",
             "angular.js",
+            "gitlab",
 
             "coderpower",
             ("css", "js"),
