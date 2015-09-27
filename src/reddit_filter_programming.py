@@ -76,6 +76,8 @@ def filter_programming_closure(dupe_filter):
             "jetbrains",
             "jdbc",
             "nginx",
+            "apache",
+            "eclipse",
 
             "nodejs",
             "node.js",
