@@ -36,7 +36,7 @@ def filter_programming_closure(dupe_filter):
             "dlang",
         ]
 
-        if banned_pattern(whitelist, title):
+        if banned_pattern_tokens(whitelist, title):
             return False
 
         if dupe_filter.in_dupes(title):
@@ -100,6 +100,16 @@ def filter_programming_closure(dupe_filter):
         ]
 
         if banned_pattern_tokens(banned, title):
+            return True
+
+        # senteces as they are -> simple `s in title` check
+        banned_sentences = [
+            "visual studio",
+            "vs 2015",
+            "vs2015",
+        ]
+
+        if banned_pattern(banned_sentences, title):
             return True
 
     return filter_programming
