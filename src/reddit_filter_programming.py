@@ -52,7 +52,6 @@ def filter_programming_closure(dupe_filter):
             "cppcon",
             "javascript",
             "typescript",
-            "hack 2.0",
             "c++",
             "c++11",
             "c++14",
@@ -61,6 +60,9 @@ def filter_programming_closure(dupe_filter):
             "clang",
             "golang",
             "ruby",
+            "c#",
+            "f#",
+            "perl",
 
             "jclarity",
             "kafka",
@@ -78,6 +80,15 @@ def filter_programming_closure(dupe_filter):
             "nginx",
             "apache",
             "eclipse",
+            "wordpress",
+            "jquery",
+            "twitter",
+            "citrix",
+            "javafx",
+            "android",
+            "docker",
+            "hhvm",
+            "javadoc",
 
             "nodejs",
             "node.js",
@@ -95,6 +106,7 @@ def filter_programming_closure(dupe_filter):
             ("css", "javascript"),
             ("css", "php"),
             ("c++", "stl"),
+            ("google", "chrome"),
             ("full", "stack", "web"),
             ("must", "have", "free"),
         ]
@@ -107,6 +119,7 @@ def filter_programming_closure(dupe_filter):
             "visual studio",
             "vs 2015",
             "vs2015",
+            "hack 2.0",
         ]
 
         if banned_pattern(banned_sentences, title):
