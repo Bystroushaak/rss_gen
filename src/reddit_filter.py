@@ -80,7 +80,8 @@ def banned_pattern_tokens(banned_words, line):
             return True
 
     # create set of words
-    trantab = maketrans(".,!?/", "     ")
+    split_chars = ".,!?/':;`(){}[]"
+    trantab = maketrans(split_chars, len(split_chars) * " ")
     tokens = set(
         line.translate(trantab).split()
     )
