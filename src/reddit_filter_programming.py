@@ -23,6 +23,7 @@ def filter_programming_closure(dupe_filter):
             "emacs",
             "lisp",
             "python",
+            "pypy",
             "racket",
             "reality",
             "scheme",
@@ -89,6 +90,11 @@ def filter_programming_closure(dupe_filter):
             "docker",
             "hhvm",
             "javadoc",
+            "intellij",
+            "jenkins",
+            "devops",
+            "phpunit",
+            "mongodb",
 
             "nodejs",
             "node.js",
@@ -107,8 +113,14 @@ def filter_programming_closure(dupe_filter):
             ("css", "php"),
             ("c++", "stl"),
             ("google", "chrome"),
+            ("modern", "web"),
+            ("referrals", "free"),
             ("full", "stack", "web"),
             ("must", "have", "free"),
+
+            # bullshit phrases
+            ("how", "i", "learned", "to", "stop", "love"),
+            ("considered", "harmful"),
         ]
 
         if banned_pattern_tokens(banned, title):
