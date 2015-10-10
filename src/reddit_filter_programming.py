@@ -13,7 +13,7 @@ from dupe_filter import DupeFilter
 
 # Functions & classes =========================================================
 def filter_programming_closure(dupe_filter):
-    def filter_programming(title, link, pub_date, description):
+    def filter_programming(title, link, real_link, pub_date, description):
         title = title.lower()
 
         whitelist = [
@@ -40,7 +40,7 @@ def filter_programming_closure(dupe_filter):
         if banned_pattern_tokens(whitelist, title):
             return False
 
-        if dupe_filter.in_dupes(title):
+        if dupe_filter.in_dupes(real_link):
             return True
 
         banned = [
@@ -103,9 +103,11 @@ def filter_programming_closure(dupe_filter):
             "angularjs",
             "angular.js",
             "gitlab",
-
             "coderpower",
+
+            ("microsoft", "surface"),
             ("css", "js"),
+            ("asp", "net"),
             ("node", "js"),
             ("angluar", "js"),
             ("react", "js"),
