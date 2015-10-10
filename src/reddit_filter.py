@@ -42,6 +42,18 @@ def _pick_item_property(item, item_property):
     return first(prop).getContent()
 
 
+def _parse_description_link(description):
+    descr = description.replace("&#34;", '"')\
+                       .replace("&lt;", "<")\
+                       .replace("&gt;", ">")
+
+    descr_dom = dhtmlparser.parseString(descr)
+
+    link_tags = descr_dom.find("a", fn=lambda x: x.getContent() == "[link]")
+
+    return first(link_tags).params["href"]
+
+
 def filter_feed(chan_id, filter_item):
     rss = _download_feed(chan_id)
     rss_dom = dhtmlparser.parseString(rss)
@@ -51,8 +63,16 @@ def filter_feed(chan_id, filter_item):
         link = _pick_item_property(item, "link")
         pub_date = _pick_item_property(item, "pubDate")
         description = _pick_item_property(item, "description")
+        real_link = _parse_description_link(description)
 
-        if filter_item(title, link, pub_date, description):
+        result = filter_item(
+            title=title,
+            link=link,
+            real_link=real_link,
+            pub_date=pub_date,
+            description=description,
+        )
+        if result:
             item.replaceWith(dhtmlparser.HTMLElement(""))
 
     xml = rss_dom.prettify().splitlines()

@@ -9,7 +9,7 @@ from reddit_filter import banned_pattern
 
 
 # Functions & classes =========================================================
-def filter_python(title, link, pub_date, description):
+def filter_python(title, link, real_link, pub_date, description):
     title = title.lower()
 
     if title.strip().endswith("?"):
