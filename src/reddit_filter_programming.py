@@ -14,6 +14,9 @@ from dupe_filter import DupeFilter
 # Functions & classes =========================================================
 def filter_programming_closure(dupe_filter):
     def filter_programming(title, link, real_link, pub_date, description):
+        if ".NET" in title.split():
+            return True
+
         title = title.lower()
 
         whitelist = [
@@ -64,6 +67,7 @@ def filter_programming_closure(dupe_filter):
             "c#",
             "f#",
             "perl",
+            "php",
 
             "jclarity",
             "kafka",
@@ -95,18 +99,22 @@ def filter_programming_closure(dupe_filter):
             "devops",
             "phpunit",
             "mongodb",
+            "xamarin",
+            "mysql",
+            "nanofl",
 
             "nodejs",
-            "node.js",
             "reactjs",
-            "react.js",
             "angularjs",
-            "angular.js",
             "gitlab",
             "coderpower",
+            "ifttt",
+            "windbg",
+            "hipchat",
 
             ("microsoft", "surface"),
             ("css", "js"),
+            ("php", "framework"),
             ("asp", "net"),
             ("node", "js"),
             ("angluar", "js"),
@@ -134,6 +142,12 @@ def filter_programming_closure(dupe_filter):
             "vs 2015",
             "vs2015",
             "hack 2.0",
+            "riot.js",
+            "node.js",
+            "react.js",
+            "angular.js",
+            "ms sql",
+
         ]
 
         if banned_pattern(banned_sentences, title):
@@ -147,8 +161,8 @@ if __name__ == '__main__':
     dupe_filter = DupeFilter.load_dupes("reddit_programming_dupes.shelve")
 
     print filter_feed(
-        "programming",
-        filter_programming_closure(dupe_filter)
+        chan_id="programming",
+        filter_item=filter_programming_closure(dupe_filter)
     )
 
     dupe_filter.save_dupes()
