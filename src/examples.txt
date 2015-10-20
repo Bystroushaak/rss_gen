@@ -8,3 +8,5 @@ The 15 most popular myths in software development
 10 Questions Developers Should be Asking Themselves
 5 things you need to know about GCC 5 - Red Hat Developer Toolset Beta
 The 10 Most Popular DB Engines (SQL and NoSQL) in 2015
+7 Things You Should Know About WebAssembly
+The 3 Characteristics of an Educated Man
