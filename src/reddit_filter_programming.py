@@ -147,7 +147,15 @@ def filter_programming_closure(dupe_filter):
             "react.js",
             "angular.js",
             "ms sql",
-
+            "windows xp",
+            "windows vista",
+            "windows 7",
+            "windows 8",
+            "windows 10",
+            "windows 11",
+            "windows 12",
+            "windows 13",
+            "windows 14",
         ]
 
         if banned_pattern(banned_sentences, title):
