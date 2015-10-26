@@ -10,11 +10,6 @@ import os.path
 from contextlib import contextmanager
 
 
-# Variables ===================================================================
-DUPE_KEY = "dupes"
-PROTECTED_TIME = 60 * 60 * 2  # 2 hours
-
-
 # Functions & classes =========================================================
 # in 2.7, there is no context manager for shelve :S
 @contextmanager
@@ -25,10 +20,14 @@ def shelver(fn):
 
 
 class DupeFilter(object):
+    dupe_key = "dupes"
+
     def __init__(self, fn=None):
         self.fn = fn
         self.dupes = set()
         self.protected = {}
+
+        self.protected_time = 30 * 60  # 30m
 
     def in_dupes(self, item):
         if item in self.dupes:
@@ -38,7 +37,7 @@ class DupeFilter(object):
 
     def _update_protected(self, item):
         if item not in self.protected:
-            self.protected[item] = time.time() + PROTECTED_TIME
+            self.protected[item] = time.time() + self.protected_time
             return False
 
         if self.protected[item] <= time.time():
@@ -54,7 +53,7 @@ class DupeFilter(object):
             return DupeFilter(fn=fn)
 
         with shelver(fn) as db:
-            return db.get(DUPE_KEY, DupeFilter(fn=fn))
+            return db.get(DupeFilter.dupe_key, DupeFilter(fn=fn))
 
     def save_dupes(self, fn=None):
         if not self.fn and not fn:
@@ -64,4 +63,4 @@ class DupeFilter(object):
             fn = self.fn
 
         with shelver(fn) as db:
-            db[DUPE_KEY] = self
+            db[DupeFilter.dupe_key] = self
