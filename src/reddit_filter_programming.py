@@ -38,6 +38,7 @@ def filter_programming_closure(dupe_filter):
             "vr",
             "digitalmars",
             "dlang",
+            "rms",
         ]
 
         if banned_pattern_tokens(whitelist, title):
@@ -112,6 +113,15 @@ def filter_programming_closure(dupe_filter):
             "windbg",
             "hipchat",
             "neo4j",
+            "aurelia",
+            "atlasdb",
+            "redis",
+            "postgresql",
+            "libreoffice",
+            "openoffice",
+            "javaone",
+            "swagger",
+            "phonegap",
 
             ("microsoft", "surface"),
             ("css", "js"),
@@ -120,6 +130,7 @@ def filter_programming_closure(dupe_filter):
             ("node", "js"),
             ("angluar", "js"),
             ("react", "js"),
+            ("selected", "js"),
             ("css", "javascript"),
             ("css", "php"),
             ("c++", "stl"),
