@@ -10,3 +10,12 @@ The 15 most popular myths in software development
 The 10 Most Popular DB Engines (SQL and NoSQL) in 2015
 7 Things You Should Know About WebAssembly
 The 3 Characteristics of an Educated Man
+6 Bad Programming Habits, Every Programmer Secretly love But, It should Avoid
+6 Clues That You Might Be a Jargonaut
+10 Great Websites To Help You Learn Latest and new Techniques of Web Development Online
+6 Free Coding Courses to level up Your Career
+27 languages to improve your Python - By Nick Coghlan (co-creator of Python)
+
+
+Not:
+    11 Years of Ubuntu: Time to Remember The First Version - 4.10 (2004)
