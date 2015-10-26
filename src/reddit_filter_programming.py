@@ -111,6 +111,7 @@ def filter_programming_closure(dupe_filter):
             "ifttt",
             "windbg",
             "hipchat",
+            "neo4j",
 
             ("microsoft", "surface"),
             ("css", "js"),
