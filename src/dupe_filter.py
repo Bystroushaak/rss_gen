@@ -55,7 +55,7 @@ class DupeFilter(object):
         with shelver(fn) as db:
             new_df = DupeFilter(fn=fn)
             df = db.get(DupeFilter.dupe_key, new_df)
-            new_df.__dict__ = df.__dict__
+            new_df.__dict__.update(df.__dict__)
 
             return new_df
 
