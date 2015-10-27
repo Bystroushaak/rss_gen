@@ -53,7 +53,11 @@ class DupeFilter(object):
             return DupeFilter(fn=fn)
 
         with shelver(fn) as db:
-            return db.get(DupeFilter.dupe_key, DupeFilter(fn=fn))
+            new_df = DupeFilter(fn=fn)
+            df = db.get(DupeFilter.dupe_key, new_df)
+            new_df.__dict__ = df.__dict__
+
+            return new_df
 
     def save_dupes(self, fn=None):
         if not self.fn and not fn:
