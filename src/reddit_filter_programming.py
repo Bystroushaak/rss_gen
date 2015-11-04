@@ -122,6 +122,8 @@ def filter_programming_closure(dupe_filter):
             "javaone",
             "swagger",
             "phonegap",
+            "fizzbuzz",
+            "matlab",
 
             ("microsoft", "surface"),
             ("css", "js"),
@@ -131,6 +133,7 @@ def filter_programming_closure(dupe_filter):
             ("angluar", "js"),
             ("react", "js"),
             ("selected", "js"),
+            ("sql", "injection"),
             ("css", "javascript"),
             ("css", "php"),
             ("c++", "stl"),
@@ -150,6 +153,7 @@ def filter_programming_closure(dupe_filter):
 
         # senteces as they are -> simple `s in title` check
         banned_sentences = [
+            ".js",
             "visual studio",
             "vs 2015",
             "vs2015",
@@ -168,6 +172,7 @@ def filter_programming_closure(dupe_filter):
             "windows 12",
             "windows 13",
             "windows 14",
+            "amish programmer",
         ]
 
         if banned_pattern(banned_sentences, title):
