@@ -124,6 +124,15 @@ def filter_programming_closure(dupe_filter):
             "phonegap",
             "fizzbuzz",
             "matlab",
+            "paas",
+            "netbeans",
+            "platformio",
+            "rxjava",
+            "codepile",
+            "instagram",
+            "dijkstra",
+            "forth",
+            "gnocchi",
 
             ("microsoft", "surface"),
             ("css", "js"),
@@ -173,6 +182,8 @@ def filter_programming_closure(dupe_filter):
             "windows 13",
             "windows 14",
             "amish programmer",
+            "technical debt",
+            "komodo ide",
         ]
 
         if banned_pattern(banned_sentences, title):

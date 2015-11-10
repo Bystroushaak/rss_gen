@@ -18,6 +18,9 @@ The 3 Characteristics of an Educated Man
 101 Ways to Store a Sparse Matrix
 8 Official Tools That Every Website Owner Should Use!
 7 Amazing Website Analytics tools with Pros and Cons You Didn't Know.
+12 Factor, or Cloud Native Apps for Spring Developers
+7 Rules For Choosing the Right Domain Name
+The six things you need to know about Babel 6
 
 
 Not:
