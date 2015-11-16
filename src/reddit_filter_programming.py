@@ -23,12 +23,16 @@ def filter_programming_closure(dupe_filter):
             "carmack",
             "clojure",
             "codeless",
+            "digitalmars",
+            "dlang",
             "emacs",
             "lisp",
-            "python",
             "pypy",
+            "python",
+            "pharo",
             "racket",
             "reality",
+            "rms",
             "scheme",
             "self",
             "smalltalk",
@@ -36,9 +40,6 @@ def filter_programming_closure(dupe_filter):
             "templeos",
             "virtual",
             "vr",
-            "digitalmars",
-            "dlang",
-            "rms",
         ]
 
         if banned_pattern_tokens(whitelist, title):
@@ -133,9 +134,25 @@ def filter_programming_closure(dupe_filter):
             "dijkstra",
             "forth",
             "gnocchi",
+            "jekyll",
+            "kaminari",
+            "webgl",
+            "lamp",
+            "feminism",
+            "protractor",
+            "npm",
+            "ageism",
+            "godmin",
+            "selenium",
+            "redox",
+            "monocoque",
+            "houndify",
+            "makara",
+            "fortran",
 
             ("microsoft", "surface"),
             ("css", "js"),
+            ("css", "trick"),
             ("php", "framework"),
             ("asp", "net"),
             ("node", "js"),
@@ -149,8 +166,14 @@ def filter_programming_closure(dupe_filter):
             ("google", "chrome"),
             ("modern", "web"),
             ("referrals", "free"),
+            ("mobile", "ux"),
+            ("recruit", "manage"),
+            ("manage", "startup"),
+
             ("full", "stack", "web"),
             ("must", "have", "free"),
+            ("growing", "tech", "stack"),
+            ("data", "analysis", "r"),
 
             # bullshit phrases
             ("how", "i", "learned", "to", "stop", "love"),
@@ -184,6 +207,9 @@ def filter_programming_closure(dupe_filter):
             "amish programmer",
             "technical debt",
             "komodo ide",
+            "help me",
+            "billing software",
+            "android app",
         ]
 
         if banned_pattern(banned_sentences, title):

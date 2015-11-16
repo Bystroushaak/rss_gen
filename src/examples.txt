@@ -21,6 +21,11 @@ The 3 Characteristics of an Educated Man
 12 Factor, or Cloud Native Apps for Spring Developers
 7 Rules For Choosing the Right Domain Name
 The six things you need to know about Babel 6
+10 Typical Mistakes in Specs
+5 Productivity Power Tools for Software Development on Linux
+10 habits of a happy Node hacker (2016)
+4 Ways To Make Dog Ears
+Top 10 Programming Oriented Websites To Learn Coding Online
 
 
 Not:
