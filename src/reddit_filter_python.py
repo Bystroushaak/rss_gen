@@ -21,6 +21,9 @@ def filter_python_closure(dupe_filter):
         if dupe_filter.in_dupes(real_link):
             return True
 
+        if "twitter" in title:
+            return True
+
         banned = [
             "django",
             "course",
@@ -42,6 +45,11 @@ def filter_python_closure(dupe_filter):
             "newbie",
             "win32",
             "win32com",
+            "komodo ide",
+            "mezzanine",
+            "pycharm",
+            "scikit",
+            "homework",
         ]
 
         if banned_pattern(banned, title):

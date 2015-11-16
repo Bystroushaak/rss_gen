@@ -26,6 +26,9 @@ The six things you need to know about Babel 6
 10 habits of a happy Node hacker (2016)
 4 Ways To Make Dog Ears
 Top 10 Programming Oriented Websites To Learn Coding Online
+20 Popular Python Blogs
+7 Amazing website Analytics tools you never used before.
+5 Ways to Make Your App More Secure in Less than 20 Minutes
 
 
 Not:
