@@ -29,7 +29,24 @@ Top 10 Programming Oriented Websites To Learn Coding Online
 20 Popular Python Blogs
 7 Amazing website Analytics tools you never used before.
 5 Ways to Make Your App More Secure in Less than 20 Minutes
+The 5 Most Infamous Software Bugs in History (and their impact)
+5 Customer Support Metrics for Startup Growth
+5 Productivity Tips For Developers
+3 Reasons Why Daily Scrum Often Takes Too Much Time?
+Top 10 Mobile App Marketing Agencies in the US
+10 Tips for Google that will make your searching easy
+10 reasons to use time tracking
+10 Engineering Best Practices
+4 use cases where you'd prefer a dynamic language
+15 Essential Python Interview Questions
+10 reasons to try Matreshka
+Top 11 Open Source & Freeware Code editors for Coders, Web Developers and Programmers 
+Top 10 Games APIs: EVE Online, Riot Games & Battle.net
+14 tips and tools to resolve conflicts with Git
+9 Reasons why learning to code will change your life
+The 8 Essential Tools That Every Website Owner Should Use
 
 
 Not:
     11 Years of Ubuntu: Time to Remember The First Version - 4.10 (2004)
+    2015 JCP Award Winners Announced
