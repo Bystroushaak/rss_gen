@@ -45,8 +45,25 @@ Top 10 Games APIs: EVE Online, Riot Games & Battle.net
 14 tips and tools to resolve conflicts with Git
 9 Reasons why learning to code will change your life
 The 8 Essential Tools That Every Website Owner Should Use
-
+5 practices that will make your code better
+7 Excellent Tools For Web Analytics
+3 Reasons why You Shouldn’t Replace Your for-loops by Stream.forEach()
+3 Open Source Alternatives to Using the Google Maps API
+4 Tips for Thinking Functionally
+7 Best Web Hosting Companies You Haven’t Heard Till Now
+12 Fractured Apps
+7 Ways to earn money on programming
+10 Useful Hacking Tools
+7 Ways to Rock Your Next Speaking Gig and Prove You’re An Expert
+12 days of christmas Code kata
+Top 5 Resolutions For Software Managers
+5 Most Dangerous Hackers Of All Time
+12 resolutions for programmers
+7 Steps to Building Site-to-Site VPN Connections for V2 VNETs using Azure Resource Manager in the NEW Azure Portal - KeithMayer.com - Site Home
+My top 10 Postgres features and tips for 2016
 
 Not:
     11 Years of Ubuntu: Time to Remember The First Version - 4.10 (2004)
     2015 JCP Award Winners Announced
+    26 Year Old Hacker Builds His Own Self Driving Car!
+    Improving 60 years old technology with a weekend project

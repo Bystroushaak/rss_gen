@@ -35,6 +35,10 @@ def filter_python_closure(dupe_filter):
             "need help",
             "need some help",
             "help with",
+            "help me",
+            "[help]",
+            "(help)",
+            "python tutorial",
             "I am new",
             "I am a new",
             "please help",
@@ -50,6 +54,17 @@ def filter_python_closure(dupe_filter):
             "pycharm",
             "scikit",
             "homework",
+            "mysql",
+
+            "windows 10",
+            "windows 11",
+            "windows 12",
+            "windows 13",
+            "windows 14",
+            "windows 7",
+            "windows 8",
+            "windows vista",
+            "windows xp",
         ]
 
         if banned_pattern(banned, title):

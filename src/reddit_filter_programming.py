@@ -150,6 +150,8 @@ def filter_programming_closure(dupe_filter):
             "xcode",
 
             ("microsoft", "surface"),
+            ("microsoft", "azure"),
+            ("anypoint", "studio"),
             ("css", "js"),
             ("css", "trick"),
             ("php", "framework"),
