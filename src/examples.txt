@@ -1,69 +1,123 @@
-5 Ways to Convince People to Use Your API
-10 Tips for 10x Application Performance
-27 languages to improve your Python
-Top 10 Reasons Pascal Beats C (really funny read)
-The 15 most popular myths in software development
-5 questions every unit test must answer
-6 Excellence Tips to Choose the Right Web Hosting Company for your website!﻿
+10 Engineering Best Practices
+10 examples of grep command in UNIX
+10 Great Websites To Help You Learn Latest and new Techniques of Web Development Online
+10 habits of a happy Node hacker (2016)
+10 Programming Skills That Lands You in Your Dream Job
 10 Questions Developers Should be Asking Themselves
+10 reasons to try Matreshka
+10 reasons to use time tracking
+10 Reasons You Should Blog As A Developer
+10 Tips for 10x Application Performance
+10 Tips for Google that will make your searching easy
+10 Typical Mistakes in Specs
+10 Useful Hacking Tools
+101 Ways to Store a Sparse Matrix
+12 days of christmas Code kata
+12 Factor, or Cloud Native Apps for Spring Developers
+12 Fractured Apps
+12 resolutions for programmers
+14 tips and tools to resolve conflicts with Git
+15 Essential Python Interview Questions
+20 Popular Python Blogs
+27 languages to improve your Python
+27 languages to improve your Python - By Nick Coghlan (co-creator of Python)
+3 Open Source Alternatives to Using the Google Maps API
+3 Reasons Why Daily Scrum Often Takes Too Much Time?
+3 Reasons why You Shouldn’t Replace Your for-loops by Stream.forEach()
+3 things we need to analyse when getting the Mock Up screen
+4 Tips for Thinking Functionally
+4 use cases where you'd prefer a dynamic language
+4 Ways To Make Dog Ears
+5 Customer Support Metrics for Startup Growth
+5 Mistakes you should avoid while facilitating a retrospective
+5 Most Dangerous Hackers Of All Time
+5 practices that will make your code better
+5 Productivity Power Tools for Software Development on Linux
+5 Productivity Tips For Developers
+5 questions every unit test must answer
 5 things you need to know about GCC 5 - Red Hat Developer Toolset Beta
-The 10 Most Popular DB Engines (SQL and NoSQL) in 2015
-7 Things You Should Know About WebAssembly
-The 3 Characteristics of an Educated Man
+5 ways to beef up your indie dev business
+5 Ways to Convince People to Use Your API
+5 Ways to Make Your App More Secure in Less than 20 Minutes
 6 Bad Programming Habits, Every Programmer Secretly love But, It should Avoid
 6 Clues That You Might Be a Jargonaut
-10 Great Websites To Help You Learn Latest and new Techniques of Web Development Online
+6 Excellence Tips to Choose the Right Web Hosting Company for your website!﻿
 6 Free Coding Courses to level up Your Career
-27 languages to improve your Python - By Nick Coghlan (co-creator of Python)
-101 Ways to Store a Sparse Matrix
-8 Official Tools That Every Website Owner Should Use!
 7 Amazing Website Analytics tools with Pros and Cons You Didn't Know.
-12 Factor, or Cloud Native Apps for Spring Developers
-7 Rules For Choosing the Right Domain Name
-The six things you need to know about Babel 6
-10 Typical Mistakes in Specs
-5 Productivity Power Tools for Software Development on Linux
-10 habits of a happy Node hacker (2016)
-4 Ways To Make Dog Ears
-Top 10 Programming Oriented Websites To Learn Coding Online
-20 Popular Python Blogs
 7 Amazing website Analytics tools you never used before.
-5 Ways to Make Your App More Secure in Less than 20 Minutes
-The 5 Most Infamous Software Bugs in History (and their impact)
-5 Customer Support Metrics for Startup Growth
-5 Productivity Tips For Developers
-3 Reasons Why Daily Scrum Often Takes Too Much Time?
-Top 10 Mobile App Marketing Agencies in the US
-10 Tips for Google that will make your searching easy
-10 reasons to use time tracking
-10 Engineering Best Practices
-4 use cases where you'd prefer a dynamic language
-15 Essential Python Interview Questions
-10 reasons to try Matreshka
-Top 11 Open Source & Freeware Code editors for Coders, Web Developers and Programmers 
-Top 10 Games APIs: EVE Online, Riot Games & Battle.net
-14 tips and tools to resolve conflicts with Git
-9 Reasons why learning to code will change your life
-The 8 Essential Tools That Every Website Owner Should Use
-5 practices that will make your code better
-7 Excellent Tools For Web Analytics
-3 Reasons why You Shouldn’t Replace Your for-loops by Stream.forEach()
-3 Open Source Alternatives to Using the Google Maps API
-4 Tips for Thinking Functionally
 7 Best Web Hosting Companies You Haven’t Heard Till Now
-12 Fractured Apps
-7 Ways to earn money on programming
-10 Useful Hacking Tools
-7 Ways to Rock Your Next Speaking Gig and Prove You’re An Expert
-12 days of christmas Code kata
-Top 5 Resolutions For Software Managers
-5 Most Dangerous Hackers Of All Time
-12 resolutions for programmers
+7 Excellent Tools For Web Analytics
+7 Rules For Choosing the Right Domain Name
 7 Steps to Building Site-to-Site VPN Connections for V2 VNETs using Azure Resource Manager in the NEW Azure Portal - KeithMayer.com - Site Home
+7 Things You Should Know About WebAssembly
+7 Tips for Continuously Deploying Single Page Apps
+7 Ways to earn money on programming
+7 Ways to Rock Your Next Speaking Gig and Prove You’re An Expert
+8 Fantastic Resources for Coding & Beyond
+8 Official Tools That Every Website Owner Should Use!
+9 Funniest Code Comments by Programmers
+9 Linux distros to watch in 2016
+9 Reasons why learning to code will change your life
+Know 6 Extraordinary iPad Apps That Will Teach You How To Code
 My top 10 Postgres features and tips for 2016
+The 10 Most Popular DB Engines (SQL and NoSQL) in 2015
+The 13 Things That Make a Good Build System
+The 15 most popular myths in software development
+The 3 Characteristics of an Educated Man
+The 5 Most Infamous Software Bugs in History (and their impact)
+The 8 Essential Tools That Every Website Owner Should Use
+The six things you need to know about Babel 6
+The Top 10 Developer Mistakes That Won't Scale
+Top 10 Games APIs: EVE Online, Riot Games & Battle.net
+Top 10 Mobile App Marketing Agencies in the US
+Top 10 Programming Oriented Websites To Learn Coding Online
+Top 10 Reasons Pascal Beats C (really funny read)
+Top 11 Open Source & Freeware Code editors for Coders, Web Developers and Programmers
+Top 5 Resolutions For Software Managers
 
-Not:
+
     11 Years of Ubuntu: Time to Remember The First Version - 4.10 (2004)
     2015 JCP Award Winners Announced
     26 Year Old Hacker Builds His Own Self Driving Car!
     Improving 60 years old technology with a weekend project
+    Rails 5 brings consistency by wrapping all rake commands using rails
+    TPP - Chapter 11 - Financial Services [pdf] • /r/btc
+
+    Democracy in open source: Yes or No? (+ Our Research Proposal)
+    Introducing TrumpScript: Making Python Great Again
+    Is your wifi network compromised? Detect new devices with email alerts via my small ruby+shell script!
+    Ike Had a Dream, and it Unfortunately Came True
+    Thank you GitHub -- Open letter
+    The basic backdoor behind Cryptsy's disaster
+    Electronics That Last: How I Built an Heirloom Laptop | Make:
+    git outta here, GitHub
+    The resolution of the Bitcoin experiment
+    The scary implementations of unsupervised AI: Botnets and hijacking physical machines.
+    Dear Github
+    The unknown browser with 300 million users that’s breaking your site
+    CUBA filters - the fast food of business software?
+    The Slow Death of the Parallel File System
+    Stop writing code that will break on Python 4!
+    Emergent Chip Vastly Accelerates Deep Neural Networks
+    Common Lisp in the 21st Century
+    Prepare to lose your social life awesomely
+    Why Can’t Programmers Be More Like Ants? Or a Lesson in Stigmergy
+    We Really Don't Know How to Compute! Presentation by Gerald Jay Sussman (video + slides)
+    Perversions, Cults and Fetishes of the Information Age
+    Huffman compression
+    Coding Sucks: Why a Job in Programming Is Absolute Hell
+    Self improvement as a developer through self-questioning
+    Shadowing: You can't always get what you want (or expect)
+    Real-time ray tracing on PowerVR Wizard GPU at CES 2016
+    copy complete || 70s, 80s and 90s Computer Hacking Supercut (8 minute video)
+    Shut Up, Paul Graham: The Simplified Version
+    Social signals and algorithmic trading of Bitcoin
+    when you're all lonely in the terminal just type `anotherone` and the great one will bless you with a key to success
+    Non-volatile Storage: No longer true that CPUs are significantly more performant and more expensive than I/O devices
+    How to be a Programmer - by Robert L Read
+    Your Superpowerless Kids or Why Not Teaching Your Kids Programming Will Bite Them
+    Interviewing is Broken
+    Image-triangulation – Delaunay and Voronoi from scratch
+    Programming Jobs To Decline? (Bureau of Labor Statistics )
+    Linux and open source have won, get over it
+    While I find his reasoning absolute BS, I am still wondering as to the pitfalls of Reactive Programming. Enlighten me!
