@@ -148,6 +148,7 @@ def filter_programming_closure(dupe_filter):
             "wordpress",
             "xamarin",
             "xcode",
+            "trumpscript",
 
             ("microsoft", "surface"),
             ("microsoft", "azure"),

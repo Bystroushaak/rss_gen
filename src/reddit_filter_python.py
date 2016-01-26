@@ -55,6 +55,7 @@ def filter_python_closure(dupe_filter):
             "scikit",
             "homework",
             "mysql",
+            "trumpscript",
 
             "windows 10",
             "windows 11",
