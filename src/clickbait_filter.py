@@ -4,6 +4,7 @@
 # Interpreter version: python 2.7
 #
 # Imports =====================================================================
+from enchant.tokenize import get_tokenizer
 from collections import namedtuple
 
 
@@ -32,6 +33,16 @@ def read_examples(fn):
     nt = namedtuple("TrainingSet", "positive negative")
 
     return nt(positive, negative)
+
+
+def tokenize(sentence_str):
+    tokenizer = get_tokenizer("en_US")
+
+    # [('Hello', 0), ('world', 7)] -> ["Hello", "world"]
+    return [
+        word_pos[0]
+        for word_pos in tokenizer(sentence_str)
+    ]
 
 
 class Classificators(object):

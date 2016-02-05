@@ -1,4 +1,5 @@
 arrow
 feedgen
 httpkie
+pyenchant
 pydhtmlparser
