@@ -19,6 +19,10 @@ def filter_programming_closure(dupe_filter):
 
         title = title.lower()
 
+        # usually with "python", so the whitelist lets it go
+        if "trupscript" in title:
+            return True
+
         whitelist = [
             "carmack",
             "clojure",
