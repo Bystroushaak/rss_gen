@@ -1,5 +1,6 @@
 10 Engineering Best Practices
 10 examples of grep command in UNIX
+10 golden rules for becoming a better programmer
 10 Great Websites To Help You Learn Latest and new Techniques of Web Development Online
 10 habits of a happy Node hacker (2016)
 10 Programming Skills That Lands You in Your Dream Job
@@ -19,12 +20,16 @@
 14 tips and tools to resolve conflicts with Git
 15 Essential Python Interview Questions
 20 Popular Python Blogs
+25 Most Common Passwords of 2015
 27 languages to improve your Python
 27 languages to improve your Python - By Nick Coghlan (co-creator of Python)
 3 Open Source Alternatives to Using the Google Maps API
 3 Reasons Why Daily Scrum Often Takes Too Much Time?
 3 Reasons why You Shouldn’t Replace Your for-loops by Stream.forEach()
 3 things we need to analyse when getting the Mock Up screen
+4 Free Weather Providers API to develop Weather app
+4 Mistakes to Avoid with Local SEO
+4 myths about Agile
 4 Tips for Thinking Functionally
 4 use cases where you'd prefer a dynamic language
 4 Ways To Make Dog Ears
@@ -35,14 +40,18 @@
 5 Productivity Power Tools for Software Development on Linux
 5 Productivity Tips For Developers
 5 questions every unit test must answer
+5 Steps for learning react application development
+5 Things You Didn’t Know About Web Hosting Terms and Conditions
 5 things you need to know about GCC 5 - Red Hat Developer Toolset Beta
 5 ways to beef up your indie dev business
 5 Ways to Convince People to Use Your API
 5 Ways to Make Your App More Secure in Less than 20 Minutes
 6 Bad Programming Habits, Every Programmer Secretly love But, It should Avoid
+6 Books to Learn and Master Programming
 6 Clues That You Might Be a Jargonaut
 6 Excellence Tips to Choose the Right Web Hosting Company for your website!﻿
 6 Free Coding Courses to level up Your Career
+6 Hot Programming Languages To Add To Your Tool Kit
 7 Amazing Website Analytics tools with Pros and Cons You Didn't Know.
 7 Amazing website Analytics tools you never used before.
 7 Best Web Hosting Companies You Haven’t Heard Till Now
@@ -58,6 +67,7 @@
 9 Funniest Code Comments by Programmers
 9 Linux distros to watch in 2016
 9 Reasons why learning to code will change your life
+9 Things You Should Know About Go
 Know 6 Extraordinary iPad Apps That Will Teach You How To Code
 My top 10 Postgres features and tips for 2016
 The 10 Most Popular DB Engines (SQL and NoSQL) in 2015
@@ -72,9 +82,12 @@ Top 10 Games APIs: EVE Online, Riot Games & Battle.net
 Top 10 Mobile App Marketing Agencies in the US
 Top 10 Programming Oriented Websites To Learn Coding Online
 Top 10 Reasons Pascal Beats C (really funny read)
+Top 10 reasons to use Visual Studio for C++ Android Development
 Top 11 Open Source & Freeware Code editors for Coders, Web Developers and Programmers
-Top 5 Resolutions For Software Managers
 Top 30 Books on Amazon Based on Links in Hacker News Comments
+Top 49 C Programming Interview Questions. You should be Ready to answer
+Top 5 Resolutions For Software Managers
+Top 7 CRM platforms on the market today
 
 
     11 Years of Ubuntu: Time to Remember The First Version - 4.10 (2004)
@@ -122,3 +135,5 @@ Top 30 Books on Amazon Based on Links in Hacker News Comments
     Programming Jobs To Decline? (Bureau of Labor Statistics )
     Linux and open source have won, get over it
     While I find his reasoning absolute BS, I am still wondering as to the pitfalls of Reactive Programming. Enlighten me!
+    15 Sorting Algorithms visualized
+    25 Civil Liberties Organizations Call for Open Hearings on Section 702 Surveillance 
