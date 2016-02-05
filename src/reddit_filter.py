@@ -51,19 +51,32 @@ def _parse_description_link(description):
 
     link_tags = descr_dom.find("a", fn=lambda x: x.getContent() == "[link]")
 
-    return first(link_tags).params["href"]
+    if not link_tags:
+        return None
+
+    link_tag = link_tags[-1].params.get("href")
+
+    if not link_tag:
+        return None
+
+    return link_tag.replace("&quot;", "") \
+                   .replace("http://", "") \
+                   .replace("https://", "")
 
 
 def filter_feed(chan_id, filter_item):
     rss = _download_feed(chan_id)
     rss_dom = dhtmlparser.parseString(rss)
 
-    for item in rss_dom.find("item"):
+    for item in rss_dom.find("entry"):
         title = _pick_item_property(item, "title")
         link = _pick_item_property(item, "link")
-        pub_date = _pick_item_property(item, "pubDate")
-        description = _pick_item_property(item, "description")
+        pub_date = _pick_item_property(item, "published")
+        description = _pick_item_property(item, "content")
         real_link = _parse_description_link(description)
+
+        if link:
+            link = link.params.get("href", None)
 
         result = filter_item(
             title=title,
