@@ -155,7 +155,11 @@ def filter_programming_closure(dupe_filter):
             "trumpscript",
             "women",
             "phpstorm",
+            "harrasment",
+            "microaggression",
+            "gender",
 
+            ("micro", "aggression"),
             ("microsoft", "surface"),
             ("microsoft", "azure"),
             ("anypoint", "studio"),
