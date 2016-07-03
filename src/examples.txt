@@ -1,3 +1,4 @@
+3 Books Programmers must read in 2016
 10 Engineering Best Practices
 10 examples of grep command in UNIX
 10 golden rules for becoming a better programmer
@@ -12,6 +13,7 @@
 10 Tips for Google that will make your searching easy
 10 Typical Mistakes in Specs
 10 Useful Hacking Tools
+10 Ways to use Confluence for Improved Communication
 101 Ways to Store a Sparse Matrix
 12 days of christmas Code kata
 12 Factor, or Cloud Native Apps for Spring Developers
@@ -24,15 +26,18 @@
 27 languages to improve your Python
 27 languages to improve your Python - By Nick Coghlan (co-creator of Python)
 3 Open Source Alternatives to Using the Google Maps API
+3 Reasons AWS Lambda Isn't Ready for Prime Time
 3 Reasons Why Daily Scrum Often Takes Too Much Time?
 3 Reasons why You Shouldn’t Replace Your for-loops by Stream.forEach()
 3 things we need to analyse when getting the Mock Up screen
+31 Steps To Become A Developer - An Alternative CS Education
 4 Free Weather Providers API to develop Weather app
 4 Mistakes to Avoid with Local SEO
 4 myths about Agile
 4 Tips for Thinking Functionally
 4 use cases where you'd prefer a dynamic language
 4 Ways To Make Dog Ears
+4 Wickedly Cool Use Cases for an iPaaS Implementation
 5 Customer Support Metrics for Startup Growth
 5 Mistakes you should avoid while facilitating a retrospective
 5 Most Dangerous Hackers Of All Time
@@ -52,10 +57,14 @@
 6 Excellence Tips to Choose the Right Web Hosting Company for your website!﻿
 6 Free Coding Courses to level up Your Career
 6 Hot Programming Languages To Add To Your Tool Kit
+6 reasons developers should love software bugs
 7 Amazing Website Analytics tools with Pros and Cons You Didn't Know.
 7 Amazing website Analytics tools you never used before.
 7 Best Web Hosting Companies You Haven’t Heard Till Now
 7 Excellent Tools For Web Analytics
+7 leadership lessons from a first-time manager
+7 Mistakes to Avoid When Developing an MVP
+7 reasons to adopt #noestimates in software delivery
 7 Rules For Choosing the Right Domain Name
 7 Steps to Building Site-to-Site VPN Connections for V2 VNETs using Azure Resource Manager in the NEW Azure Portal - KeithMayer.com - Site Home
 7 Things You Should Know About WebAssembly
@@ -64,6 +73,8 @@
 7 Ways to Rock Your Next Speaking Gig and Prove You’re An Expert
 8 Fantastic Resources for Coding & Beyond
 8 Official Tools That Every Website Owner Should Use!
+8 Weird Programming Languages you Might Don’t Know About
+9 Benefits of Test Driven Development
 9 Funniest Code Comments by Programmers
 9 Linux distros to watch in 2016
 9 Reasons why learning to code will change your life
@@ -74,6 +85,7 @@ The 10 Most Popular DB Engines (SQL and NoSQL) in 2015
 The 13 Things That Make a Good Build System
 The 15 most popular myths in software development
 The 3 Characteristics of an Educated Man
+The 5 Golden Rules of Giving Awesome Customer Support
 The 5 Most Infamous Software Bugs in History (and their impact)
 The 8 Essential Tools That Every Website Owner Should Use
 The six things you need to know about Babel 6
@@ -86,8 +98,11 @@ Top 10 reasons to use Visual Studio for C++ Android Development
 Top 11 Open Source & Freeware Code editors for Coders, Web Developers and Programmers
 Top 30 Books on Amazon Based on Links in Hacker News Comments
 Top 49 C Programming Interview Questions. You should be Ready to answer
+Top 5 irritating things in programming tutorials
 Top 5 Resolutions For Software Managers
+Top 50 programming interview questions
 Top 7 CRM platforms on the market today
+Top 8 Continuous Integration Tools
 
 
     11 Years of Ubuntu: Time to Remember The First Version - 4.10 (2004)
@@ -97,6 +112,11 @@ Top 7 CRM platforms on the market today
     Rails 5 brings consistency by wrapping all rake commands using rails
     TPP - Chapter 11 - Financial Services [pdf] • /r/btc
 
+    React Native 5 Minute Uber UI by Devin Abbott
+    Current Proposals for C++17 - Part 1
+    I made my employees start working at 7AM – and they love it
+    IBM has just open-sourced 44,000 lines of blockchain code on GitHub
+    APL demonstration 1975
     Democracy in open source: Yes or No? (+ Our Research Proposal)
     Introducing TrumpScript: Making Python Great Again
     Is your wifi network compromised? Detect new devices with email alerts via my small ruby+shell script!
@@ -136,4 +156,9 @@ Top 7 CRM platforms on the market today
     Linux and open source have won, get over it
     While I find his reasoning absolute BS, I am still wondering as to the pitfalls of Reactive Programming. Enlighten me!
     15 Sorting Algorithms visualized
-    25 Civil Liberties Organizations Call for Open Hearings on Section 702 Surveillance 
+    25 Civil Liberties Organizations Call for Open Hearings on Section 702 Surveillance
+    Sublime Text 3 build 3103 released
+    80's Computer and coding books from Usborne Publishing available as free pdf downloads
+    31 Coders Games and Puzzle Sites
+    Atom 1.5 released
+    How to Create Tetris in Elm - Parts 1 to 5

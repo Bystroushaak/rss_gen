@@ -153,6 +153,8 @@ def filter_programming_closure(dupe_filter):
             "xamarin",
             "xcode",
             "trumpscript",
+            "women",
+            "phpstorm",
 
             ("microsoft", "surface"),
             ("microsoft", "azure"),
