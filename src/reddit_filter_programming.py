@@ -20,7 +20,7 @@ def filter_programming_closure(dupe_filter):
         title = title.lower()
 
         # usually with "python", so the whitelist lets it go
-        if "trupscript" in title:
+        if "trumphscript" in title or "trumpscript" in title:
             return True
 
         whitelist = [
@@ -44,6 +44,9 @@ def filter_programming_closure(dupe_filter):
             "templeos",
             "virtual",
             "vr",
+            "oculus",
+            "vive",
+            "hololens",
         ]
 
         if banned_pattern_tokens(whitelist, title):
@@ -158,6 +161,7 @@ def filter_programming_closure(dupe_filter):
             "harrasment",
             "microaggression",
             "gender",
+            "pokemon",
 
             ("micro", "aggression"),
             ("microsoft", "surface"),
