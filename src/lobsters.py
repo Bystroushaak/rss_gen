@@ -16,10 +16,7 @@ from dhtmlparser import first
 def _download_feed():
     downer = httpkie.Downloader()
 
-    return downer.download(
-        "https://lobste.rs/rss" +
-        "?token=99mPCT94XQfIwe8IyvctD0QQBhHPhyIuRdg8vOOjgxCRszqyk6KS81dgXmtG"
-    )
+    return downer.download("https://lobste.rs/rss")
 
 
 def _find_comments_link(item):
