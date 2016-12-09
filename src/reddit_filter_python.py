@@ -4,10 +4,10 @@
 # Interpreter version: python 2.7
 #
 # Imports =====================================================================
-from reddit_filter import filter_feed
-from reddit_filter import banned_pattern
+from filters.reddit_filter import filter_feed
+from filters.reddit_filter import banned_pattern
 
-from dupe_filter import DupeFilter
+from filters.dupe_filter import DupeFilter
 
 
 # Functions & classes =========================================================

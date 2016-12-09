@@ -4,11 +4,11 @@
 # Interpreter version: python 2.7
 #
 # Imports =====================================================================
-from reddit_filter import filter_feed
-from reddit_filter import banned_pattern
-from reddit_filter import banned_pattern_tokens
+from filters.reddit_filter import filter_feed
+from filters.reddit_filter import banned_pattern
+from filters.reddit_filter import banned_pattern_tokens
 
-from dupe_filter import DupeFilter
+from filters.dupe_filter import DupeFilter
 
 
 # Functions & classes =========================================================
@@ -78,7 +78,6 @@ def filter_programming_closure(dupe_filter):
             "swift",
             "typescript",
 
-            "ageism",
             "android",
             "angular",
             "angularjs",
@@ -93,7 +92,6 @@ def filter_programming_closure(dupe_filter):
             "dijkstra",
             "docker",
             "eclipse",
-            "feminism",
             "fizzbuzz",
             "forth",
             "gitlab",
@@ -156,14 +154,20 @@ def filter_programming_closure(dupe_filter):
             "xamarin",
             "xcode",
             "trumpscript",
-            "women",
             "phpstorm",
-            "harrasment",
-            "microaggression",
-            "gender",
             "pokemon",
 
+            # snake pits full of snakes, scorpions, spiders, shit and sjws
+            "women",
+            "ageism",
+            "gender",
+            "feminism",
+            "diversity",
+            "harrasment",
+            "microaggression",
             ("micro", "aggression"),
+
+            # I don't really care about these sentences
             ("microsoft", "surface"),
             ("microsoft", "azure"),
             ("anypoint", "studio"),
@@ -185,11 +189,12 @@ def filter_programming_closure(dupe_filter):
             ("mobile", "ux"),
             ("recruit", "manage"),
             ("manage", "startup"),
+            ("data", "analysis", "r"),
 
+            # shity clickbait crap
             ("full", "stack", "web"),
             ("must", "have", "free"),
             ("growing", "tech", "stack"),
-            ("data", "analysis", "r"),
 
             # bullshit phrases
             ("how", "i", "learned", "to", "stop", "love"),
@@ -211,8 +216,8 @@ def filter_programming_closure(dupe_filter):
             "komodo ide",
             "ms sql",
             "node.js",
-            "react.js",
             "riot.js",
+            "react.js",
             "technical debt",
             "visual studio",
             "vs 2015",

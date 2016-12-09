@@ -4,8 +4,9 @@
 # Interpreter version: python 2.7
 #
 # Imports =====================================================================
-import arrow
 from urlparse import urljoin
+
+import arrow
 
 import httpkie
 import dhtmlparser
