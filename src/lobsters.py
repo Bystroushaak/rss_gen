@@ -59,7 +59,10 @@ def link_to_comments_instead_of_url(feed):
                 _construct_new_link_el(comments_url)
             )
 
-    return rss_dom.prettify()
+    xml_head = '<?xml version="1.0" encoding="UTF-8" ?="" />'
+    valid_xml_head = '<?xml version="1.0" encoding="UTF-8"?>'
+
+    return rss_dom.prettify().replace(xml_head, valid_xml_head)
 
 
 # Main program ================================================================
