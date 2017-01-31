@@ -156,6 +156,8 @@ def filter_programming_closure(dupe_filter):
             "trumpscript",
             "phpstorm",
             "pokemon",
+            "trump",
+            "election",
 
             # snake pits full of snakes, scorpions, spiders, shit and sjws
             "women",

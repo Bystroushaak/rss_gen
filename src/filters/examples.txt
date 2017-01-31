@@ -104,6 +104,7 @@ Top 50 programming interview questions
 Top 7 CRM platforms on the market today
 Top 8 Continuous Integration Tools
 HELP!!! Could anyone help annotating redux? I really need it.
+I'm 17 and I created an iOS App to hide one photo within another. 
 
 
     11 Years of Ubuntu: Time to Remember The First Version - 4.10 (2004)
@@ -163,3 +164,4 @@ HELP!!! Could anyone help annotating redux? I really need it.
     31 Coders Games and Puzzle Sites
     Atom 1.5 released
     How to Create Tetris in Elm - Parts 1 to 5
+    Here's 1.4 billion records from Have I been pwned for you to analyse
