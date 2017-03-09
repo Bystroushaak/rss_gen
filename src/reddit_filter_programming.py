@@ -47,6 +47,7 @@ def filter_programming_closure(dupe_filter):
             "oculus",
             "vive",
             "hololens",
+            "wolfram",
         ]
 
         if banned_pattern_tokens(whitelist, title):
